@@ -1,14 +1,19 @@
 <h1>Tareas</h1>
 
-
+<!-- Esto es un comentario que si se va a ver en HTML -->
+{# Esto es una tarea #}
 {% for task in tasks %}
 
 <div>
-    <h1>{{task.title}}</h1>
+    <h1> {% if task.done == False %} ⏱️ {% else %} ✅ {% endif %} {{task.title}} </h1>
+
     <p>{{task.description}}</p>
     <p>Proyectos: {{task.project.name}}</p>
     <button>
         Delete
+    </button>
+    <button>
+        ✅ Done
     </button>
 </div>
 
