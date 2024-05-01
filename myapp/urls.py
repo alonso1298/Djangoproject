@@ -7,4 +7,5 @@ urlpatterns = [
     path('saludar/<str:username>', views.saludar),
     path('proyectos/', views.proyectos),
     path('tasks/', views.tasks),
+    path('create_task/', views.create_task),
 ]
