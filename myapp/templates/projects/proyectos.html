@@ -6,8 +6,10 @@
 
 {% for proyectos in proyectos %}
 
-<article>
-    <h1>{{proyectos.name}}</h1>
+<article class="card">
+    <a href="{% url 'project_detail' proyectos.id %}">
+        <h1>{{proyectos.name}}</h1>
+    </a>
 </article>
 
 {% endfor %}

@@ -6,7 +6,9 @@ urlpatterns = [
     path('about/', views.about, name="about"),
     path('saludar/<str:username>', views.saludar, name="hello"),
     path('proyectos/', views.proyectos, name="proyectos"),
+    path('proyectos/<int:id>', views.project_detail, name="project_detail"),
     path('tasks/', views.tasks, name="tasks"),
     path('create_task/', views.create_task, name="create_tasks"),
     path('create_project/', views.create_project, name="create_project"),
 ]
+
