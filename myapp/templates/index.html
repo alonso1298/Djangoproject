@@ -1,10 +1,14 @@
 
 {% extends 'layouts/base.html' %}
 
+{% load static %}
 
 {% block content %}
 
 <h1>{{title}}</h1>
+
+<img src="{% static 'espacio.png' %}" alt="", width="70">
+
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi hic earum voluptate harum modi pariatur, aliquid repellat ad inventore quod! Ad, dignissimos impedit. Vitae, quibusdam quos architecto neque ipsa laudantium.</p>
 
 {% endblock %}
