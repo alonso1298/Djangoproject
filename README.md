@@ -1,1 +1,6 @@
-# Djangoproject
+# Proyecto Django
+Este repositorio contiene un proyecto desarrollado con Django, un framework web de alto nivel y de código abierto que permite construir aplicaciones web de manera rápida y eficiente en el lenguaje de programación Python.
+## Características principales:
+- Desarrollo rápido: Django facilita la creación de aplicaciones web al proporcionar un conjunto de herramientas que cubren muchos aspectos comunes de desarrollo, como el enrutamiento URL, la gestión de bases de datos, la autenticación de usuarios y más.
+- Seguridad integrada: Django incorpora características de seguridad sólidas de forma predeterminada, como la protección contra ataques de inyección SQL, cross-site scripting (XSS) y cross-site request forgery (CSRF), lo que ayuda a proteger tus aplicaciones web contra vulnerabilidades comunes.
+- Administra fácilmente tus datos: Django incluye una interfaz de administración intuitiva y poderosa que te permite gestionar los datos de tu aplicación de manera eficiente, sin necesidad de escribir código adicional.
